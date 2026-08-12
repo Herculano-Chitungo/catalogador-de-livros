@@ -1,0 +1,59 @@
+<div class="login-split-container">
+  <div class="login-info-side">
+    <div class="info-content">
+      <div class="brand-header">
+        <mat-icon color="primary" style="font-size: 36px; width: 36px; height: 36px;">menu_book</mat-icon>
+        <h1>Catálogo de Livros</h1>
+      </div>
+      <p class="project-description">
+        Esta aplicação Web foi desenvolvida como uma solução prática para o gerenciamento de acervos de livros. Nosso objetivo é proporcionar uma interface intuitiva para que usuários possam registrar, editar e acompanhar o status de suas obras favoritas com facilidade e segurança.
+      </p>
+      
+      <div class="features-list">
+        <div class="feature-item">
+          <mat-icon>check_circle</mat-icon>
+          <span>Controle visual completo do acervo</span>
+        </div>
+        <div class="feature-item">
+          <mat-icon>check_circle</mat-icon>
+          <span>Acesso restrito e seguro para gestão</span>
+        </div>
+        <div class="feature-item">
+          <mat-icon>check_circle</mat-icon>
+          <span>Interface limpa, moderna e responsiva</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="login-form-side">
+    <mat-card class="login-card">
+      <h2>Autenticação</h2>
+      <p class="login-subtitle">Entre com suas credenciais para gerenciar o acervo.</p>
+      
+      <div *ngIf="errorMessage" class="error-alert">
+        <mat-icon style="font-size: 18px; width: 18px; height: 18px;">error_outline</mat-icon>
+        <span>{{ errorMessage }}</span>
+      </div>
+
+      <form [formGroup]="form" (ngSubmit)="logar()">
+        <mat-form-field appearance="outline">
+          <mat-label>Usuário</mat-label>
+          <input matInput formControlName="usuario" placeholder="Digite seu usuário">
+          <mat-icon matSuffix>person</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Senha</mat-label>
+          <input matInput type="password" formControlName="senha" placeholder="Digite sua senha">
+          <mat-icon matSuffix>lock</mat-icon>
+        </mat-form-field>
+
+        <button mat-raised-button color="primary" type="submit" class="btn-entrar" [disableRipple]="true">
+          Entrar no Sistema
+        </button>
+      </form>
+    </mat-card>
+  </div>
+</div>

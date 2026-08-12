@@ -1,0 +1,71 @@
+<div class="page-container">
+  <div class="page-header"
+    style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+    <div>
+      <h1>Catálogo de Livros</h1>
+      <p class="subtitle" style="margin: 4px 0 0 0;">
+        {{ usuarioLogado ? 'Gerencie os livros cadastrados no sistema.' : 'Consulte os livros disponíveis em nosso
+        catálogo.' }}
+      </p>
+    </div>
+
+    <div style="display: flex; gap: 12px; align-items: center;">
+      <button *ngIf="usuarioLogado" mat-raised-button color="primary" routerLink="/livros/novo" class="btn-cadastrar"
+        [disableRipple]="true"
+        style="height: 40px; line-height: 40px; border-radius: 8px; box-sizing: border-box; display: inline-flex; align-items: center; vertical-align: middle;">
+        <mat-icon style="display: flex; align-items: center;">add</mat-icon> Cadastrar Novo
+      </button>
+
+      <button *ngIf="usuarioLogado" mat-raised-button color="warn" (click)="sair()" class="btn-sair"
+        [disableRipple]="true"
+        style="height: 40px; line-height: 40px; border-radius: 8px; box-sizing: border-box; display: inline-flex; align-items: center; vertical-align: middle;">
+        <mat-icon style="display: flex; align-items: center;">logout</mat-icon> Sair
+      </button>
+    </div>
+  </div>
+
+  <div class="table-card mat-elevation-z2">
+    <table mat-table [dataSource]="livros">
+
+      <ng-container matColumnDef="titulo">
+        <th mat-header-cell *matHeaderCellDef> Título </th>
+        <td mat-cell *matCellDef="let livro"> <strong>{{livro.titulo}}</strong> </td>
+      </ng-container>
+
+      <ng-container matColumnDef="autor">
+        <th mat-header-cell *matHeaderCellDef> Autor </th>
+        <td mat-cell *matCellDef="let livro"> {{livro.autor}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="categoria">
+        <th mat-header-cell *matHeaderCellDef> Categoria </th>
+        <td mat-cell *matCellDef="let livro">
+          <span class="badge-categoria">{{livro.categoria}}</span>
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="preco">
+        <th mat-header-cell *matHeaderCellDef> Preço </th>
+        <td mat-cell *matCellDef="let livro"> {{livro.preco | currency:'BRL'}} </td>
+      </ng-container>
+      <ng-container matColumnDef="acoes">
+        <th mat-header-cell *matHeaderCellDef class="text-right"> Ações </th>
+        <td mat-cell *matCellDef="let livro" class="text-right"
+          style="display: flex; gap: 8px; justify-content: flex-end; align-items: center; padding-top: 8px; padding-bottom: 8px;">
+          <button mat-raised-button color="primary" [routerLink]="['/livros/editar', livro._id || livro.id]"
+            style="border-radius: 6px; font-size: 13px; line-height: 32px; height: 32px; padding: 0 12px;">
+            Editar
+          </button>
+          <button mat-raised-button color="warn" (click)="apagar(livro._id || livro.id)"
+            style="border-radius: 6px; font-size: 13px; line-height: 32px; height: 32px; padding: 0 12px;">
+            Apagar
+          </button>
+        </td>
+      </ng-container>
+
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  </div>
+</div>
