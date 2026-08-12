@@ -1,6 +1,0 @@
-use('catalogo_livros');
-
-db.getCollection('usuario').insertOne({
-  usuario: 'admin',
-  senha: '123'
-});

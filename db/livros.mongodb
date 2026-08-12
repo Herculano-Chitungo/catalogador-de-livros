@@ -1,0 +1,493 @@
+[
+    {
+        "_id": "6a7c00783c278737aa41d827",
+        "titulo": "A vida é feita de escolhas",
+        "autor": "Dalcides Biscalquim",
+        "categoria": "Reflexão",
+        "preco": 120,
+        "lido": false,
+        "id": "6a7c00783c278737aa41d827"
+    },
+    {
+        "_id": "6a7cc9b102a674ee94675ce6",
+        "titulo": "Clean Code: A Handbook of Agile Software Craftsmanship",
+        "autor": "Robert C. Martin",
+        "categoria": "Programação",
+        "preco": 129.9,
+        "id": "6a7cc9b102a674ee94675ce6"
+    },
+    {
+        "_id": "6a7cc9e802a674ee94675ce7",
+        "titulo": "Design Patterns: Elements of Reusable Object-Oriented Software",
+        "autor": "Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides",
+        "categoria": "Engenharia de Software",
+        "preco": 149.9,
+        "id": "6a7cc9e802a674ee94675ce7"
+    },
+    {
+        "_id": "6a7cca2202a674ee94675ce8",
+        "titulo": "Refactoring: Improving the Design of Existing Code",
+        "autor": "Martin Fowler",
+        "categoria": "Engenharia de Software",
+        "preco": 159.9,
+        "id": "6a7cca2202a674ee94675ce8"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3ee",
+        "titulo": "Domain-Driven Design",
+        "autor": "Eric Evans",
+        "categoria": "Arquitetura",
+        "preco": 189.9,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d3ee"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3ef",
+        "titulo": "Refactoring",
+        "autor": "Martin Fowler",
+        "categoria": "Programação",
+        "preco": 155,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d3ef"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3f0",
+        "titulo": "JavaScript: The Good Parts",
+        "autor": "Douglas Crockford",
+        "categoria": "Programação",
+        "preco": 89.9,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d3f0"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3f1",
+        "titulo": "Entendendo Algoritmos",
+        "autor": "Aditya Y. Bhargava",
+        "categoria": "Computação",
+        "preco": 95.5,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d3f1"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3f2",
+        "titulo": "Design Patterns",
+        "autor": "Erich Gamma",
+        "categoria": "Arquitetura",
+        "preco": 160,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d3f2"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3f3",
+        "titulo": "Arquitetura Limpa",
+        "autor": "Robert C. Martin",
+        "categoria": "Arquitetura",
+        "preco": 110,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d3f3"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3f4",
+        "titulo": "Código Limpo",
+        "autor": "Robert C. Martin",
+        "categoria": "Programação",
+        "preco": 105,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d3f4"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3f5",
+        "titulo": "O Programador Pragmático",
+        "autor": "Andrew Hunt",
+        "categoria": "Carreira",
+        "preco": 120,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d3f5"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3f6",
+        "titulo": "Estruturas de Dados e Algoritmos com JavaScript",
+        "autor": "Loiane Groner",
+        "categoria": "Computação",
+        "preco": 99,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d3f6"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3f7",
+        "titulo": "Microsserviços Prontos para a Produção",
+        "autor": "Susan J. Fowler",
+        "categoria": "Arquitetura",
+        "preco": 85,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d3f7"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3f8",
+        "titulo": "Working Effectively with Legacy Code",
+        "autor": "Michael Feathers",
+        "categoria": "Programação",
+        "preco": 140,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d3f8"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3f9",
+        "titulo": "Patterns of Enterprise Application Architecture",
+        "autor": "Martin Fowler",
+        "categoria": "Arquitetura",
+        "preco": 195,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d3f9"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3fa",
+        "titulo": "Continuous Delivery",
+        "autor": "Jez Humble",
+        "categoria": "DevOps",
+        "preco": 175,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d3fa"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3fb",
+        "titulo": "Site Reliability Engineering",
+        "autor": "Niall Richard Murphy",
+        "categoria": "DevOps",
+        "preco": 150,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d3fb"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3fc",
+        "titulo": "The DevOps Handbook",
+        "autor": "Gene Kim",
+        "categoria": "DevOps",
+        "preco": 130,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d3fc"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3fd",
+        "titulo": "High Performance Browser Networking",
+        "autor": "Ilya Grigorik",
+        "categoria": "Redes",
+        "preco": 115,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d3fd"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3fe",
+        "titulo": "You Don't Know JS: Scope & Closures",
+        "autor": "Kyle Simpson",
+        "categoria": "Programação",
+        "preco": 69.9,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d3fe"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d3ff",
+        "titulo": "You Don't Know JS: Async & Performance",
+        "autor": "Kyle Simpson",
+        "categoria": "Programação",
+        "preco": 79.9,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d3ff"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d400",
+        "titulo": "Head First Design Patterns",
+        "autor": "Eric Freeman",
+        "categoria": "Arquitetura",
+        "preco": 145,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d400"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d401",
+        "titulo": "Python Fluente",
+        "autor": "Luciano Ramalho",
+        "categoria": "Programação",
+        "preco": 135,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d401"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d402",
+        "titulo": "Python para Análise de Dados",
+        "autor": "Wes McKinney",
+        "categoria": "Dados",
+        "preco": 125,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d402"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d403",
+        "titulo": "Introduction to Algorithms",
+        "autor": "Thomas H. Cormen",
+        "categoria": "Computação",
+        "preco": 320,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d403"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d404",
+        "titulo": "Artificial Intelligence: A Modern Approach",
+        "autor": "Stuart Russell",
+        "categoria": "IA",
+        "preco": 290,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d404"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d405",
+        "titulo": "Deep Learning",
+        "autor": "Ian Goodfellow",
+        "categoria": "IA",
+        "preco": 250,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d405"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d406",
+        "titulo": "Hands-On Machine Learning with Scikit-Learn",
+        "autor": "Aurélien Géron",
+        "categoria": "IA",
+        "preco": 180,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d406"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d407",
+        "titulo": "Database System Concepts",
+        "autor": "Abraham Silberschatz",
+        "categoria": "Banco de Dados",
+        "preco": 210,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d407"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d408",
+        "titulo": "Designing Data-Intensive Applications",
+        "autor": "Martin Kleppmann",
+        "categoria": "Arquitetura",
+        "preco": 165,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d408"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d409",
+        "titulo": "MongoDB: The Definitive Guide",
+        "autor": "Shannon Bradshaw",
+        "categoria": "Banco de Dados",
+        "preco": 140,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d409"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d40a",
+        "titulo": "SQL em 10 Minutos",
+        "autor": "Ben Forta",
+        "categoria": "Banco de Dados",
+        "preco": 55,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d40a"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d40b",
+        "titulo": "Learning React",
+        "autor": "Alex Banks",
+        "categoria": "Frontend",
+        "preco": 110,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d40b"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d40c",
+        "titulo": "React Native in Action",
+        "autor": "Nader Dabit",
+        "categoria": "Mobile",
+        "preco": 120,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d40c"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d40d",
+        "titulo": "Flutter na Prática",
+        "autor": "Eric Windmill",
+        "categoria": "Mobile",
+        "preco": 95,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d40d"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d40e",
+        "titulo": "Angular: Modern Web Development",
+        "autor": "Doguhan Uluca",
+        "categoria": "Frontend",
+        "preco": 130,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d40e"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d40f",
+        "titulo": "TypeScript In Action",
+        "autor": "Steve Fenton",
+        "categoria": "Programação",
+        "preco": 100,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d40f"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d410",
+        "titulo": "Pro Git",
+        "autor": "Scott Chacon",
+        "categoria": "Ferramentas",
+        "preco": 90,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d410"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d411",
+        "titulo": "Docker Deep Dive",
+        "autor": "Nigel Poulton",
+        "categoria": "DevOps",
+        "preco": 110,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d411"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d412",
+        "titulo": "Kubernetes Up & Running",
+        "autor": "Kelsey Hightower",
+        "categoria": "DevOps",
+        "preco": 140,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d412"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d413",
+        "titulo": "Terraform: Up & Running",
+        "autor": "Yevgeniy Brikman",
+        "categoria": "DevOps",
+        "preco": 150,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d413"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d414",
+        "titulo": "AWS Certified Solutions Architect",
+        "autor": "Associate Guide",
+        "categoria": "Cloud",
+        "preco": 160,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d414"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d415",
+        "titulo": "Building Microservices",
+        "autor": "Sam Newman",
+        "categoria": "Arquitetura",
+        "preco": 170,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d415"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d416",
+        "titulo": "Monolith to Microservices",
+        "autor": "Sam Newman",
+        "categoria": "Arquitetura",
+        "preco": 155,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d416"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d417",
+        "titulo": "The Mythical Man-Month",
+        "autor": "Fred Brooks",
+        "categoria": "Gestão",
+        "preco": 95,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d417"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d418",
+        "titulo": "Peopleware",
+        "autor": "Tom DeMarco",
+        "categoria": "Gestão",
+        "preco": 85,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d418"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d419",
+        "titulo": "Sprint",
+        "autor": "Jake Knapp",
+        "categoria": "Inovação",
+        "preco": 75,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d419"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d41a",
+        "titulo": "The Lean Startup",
+        "autor": "Eric Ries",
+        "categoria": "Gestão",
+        "preco": 80,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d41a"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d41b",
+        "titulo": "Contagious",
+        "autor": "Jonah Berger",
+        "categoria": "Marketing",
+        "preco": 70,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d41b"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d41c",
+        "titulo": "Hooked",
+        "autor": "Nir Eyal",
+        "categoria": "Produto",
+        "preco": 85,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d41c"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d41d",
+        "titulo": "Inspired",
+        "autor": "Marty Cagan",
+        "categoria": "Produto",
+        "preco": 110,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d41d"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d41e",
+        "titulo": "Empowered",
+        "autor": "Marty Cagan",
+        "categoria": "Produto",
+        "preco": 120,
+        "lido": false,
+        "id": "6a7cd21dce250c283705d41e"
+    },
+    {
+        "_id": "6a7cd21dce250c283705d41f",
+        "titulo": "The Design of Everyday Things",
+        "autor": "Don Norman",
+        "categoria": "Design",
+        "preco": 95,
+        "lido": true,
+        "id": "6a7cd21dce250c283705d41f"
+    },
+    {
+        "_id": "6a7ce7e99f9e61d8f37e710c",
+        "titulo": "O Príncipe",
+        "autor": "Nicolau Maquiavel",
+        "categoria": "Filosofia Política / Clássicos",
+        "preco": 18.33,
+        "id": "6a7ce7e99f9e61d8f37e710c"
+    }
+]
